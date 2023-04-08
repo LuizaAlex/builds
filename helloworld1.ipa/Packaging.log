@@ -1,0 +1,115 @@
+2023-04-08 21:51:54 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb7707f8160; archive(resolved)="<IDEArchive: 0x6000029aa8e0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team(resolved)="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb7707f8160; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fb7707f7ef0; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb7707f7cf0; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb771216cd0; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb771216530; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb771215e40; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb771215b20; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb771215920; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb77120ff90; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="<IDEProvisioningBasicTeam: 0x600000ca9ca0; teamID='3K3Y88UUJ6', teamName='Poteca Luiza'>">
+	<IDEDistributionContext: 0x7fb77120f650; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="(null)">
+	<IDEDistributionContext: 0x7fb771209030; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="(null)">
+	<IDEDistributionContext: 0x7fb771207010; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600000f87340>", team="(null)">
+	<IDEDistributionContext: 0x7fb771207a90; archive = "<IDEArchive: 0x6000029aa8e0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fb7707f8160>
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2023-04-08 21:51:54 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app' '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app'
+2023-04-08 21:51:54 +0000  >>> Copying /Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app 
+2023-04-08 21:51:54 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-04-08 21:51:54 +0000  2335 bytes for ./_CodeSignature/CodeResources
+2023-04-08 21:51:54 +0000  copying file ./helloworld1 ... 
+2023-04-08 21:51:54 +0000  91808 bytes for ./helloworld1
+2023-04-08 21:51:54 +0000  copying file ./exportOptions.plist ... 
+42 bytes for ./exportOptions.plist
+2023-04-08 21:51:54 +0000  copying file ./embedded.mobileprovision ... 
+2023-04-08 21:51:54 +0000  14179 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2023-04-08 21:51:54 +0000  1212 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2023-04-08 21:51:54 +0000  8 bytes for ./PkgInfo
+2023-04-08 21:51:54 +0000 [MT] /usr/bin/ditto exited with 0
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2023-04-08 21:51:54 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app/helloworld1' '-verify_arch' 'arm64e'
+2023-04-08 21:51:54 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-04-08 21:51:54 +0000 [MT] Skipping architecture thinning for item "helloworld1" because arch "arm64e" wasn't found
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionODRStep
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2023-04-08 21:51:54 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app'
+2023-04-08 21:51:54 +0000 [MT] /usr/bin/xattr exited with 0
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2023-04-08 21:51:54 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000029ee700; bundleID='com.example.hello', path='<DVTFilePath:0x6000026a3cd0:'/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600002e91db0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003ab11e0; name='Apple Development: Poteca Luiza (5BJQUNY65B)', hash='193A1253DFA20AFE43AA35F97D08B824F0815F8B', serialNumber='479C250009001D0DFDA0DE6C7CD26CB1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-04-08 13:57:47 +0000''>', entitlements='{
+    "application-identifier" = "3K3Y88UUJ6.com.example.hello";
+    "com.apple.developer.team-identifier" = 3K3Y88UUJ6;
+    "get-task-allow" = 1;
+}', teamID='3K3Y88UUJ6', identifier='com.example.hello', executablePath='<DVTFilePath:0x600002638460:'/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app/helloworld1'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "3K3Y88UUJ6.com.example.hello";
+    "com.apple.developer.team-identifier" = 3K3Y88UUJ6;
+    "get-task-allow" = 1;
+}
+2023-04-08 21:51:54 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000029ee700; bundleID='com.example.hello', path='<DVTFilePath:0x6000026a3cd0:'/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600002e91db0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003ab1ce0; name='Apple Development: Poteca Luiza (5BJQUNY65B)', hash='193A1253DFA20AFE43AA35F97D08B824F0815F8B', serialNumber='479C250009001D0DFDA0DE6C7CD26CB1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-04-08 13:57:47 +0000''>', entitlements='{
+    "application-identifier" = "3K3Y88UUJ6.com.example.hello";
+    "com.apple.developer.team-identifier" = 3K3Y88UUJ6;
+    "get-task-allow" = 1;
+}', teamID='3K3Y88UUJ6', identifier='com.example.hello', executablePath='<DVTFilePath:0x600002638460:'/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app/helloworld1'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "3K3Y88UUJ6.com.example.hello";
+    "com.apple.developer.team-identifier" = 3K3Y88UUJ6;
+    "get-task-allow" = 1;
+}
+2023-04-08 21:51:54 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000029ee700; bundleID='com.example.hello', path='<DVTFilePath:0x6000026a3cd0:'/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600002e91db0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003ab1ef0; name='Apple Development: Poteca Luiza (5BJQUNY65B)', hash='193A1253DFA20AFE43AA35F97D08B824F0815F8B', serialNumber='479C250009001D0DFDA0DE6C7CD26CB1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-04-08 13:57:47 +0000''>', entitlements='{
+    "application-identifier" = "3K3Y88UUJ6.com.example.hello";
+    "com.apple.developer.team-identifier" = 3K3Y88UUJ6;
+    "get-task-allow" = 1;
+}', teamID='3K3Y88UUJ6', identifier='com.example.hello', executablePath='<DVTFilePath:0x600002638460:'/Users/luiza/Desktop/s1/helloworld1/helloworld1.xcarchive/Products/Applications/helloworld1.app/helloworld1'>', hardenedRuntime='0'>'> to: /var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/entitlements~~~O7nK4o
+2023-04-08 21:51:54 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '193A1253DFA20AFE43AA35F97D08B824F0815F8B' '--entitlements' '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/entitlements~~~O7nK4o' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app'
+2023-04-08 21:51:54 +0000  /var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app: replacing existing signature
+2023-04-08 21:51:54 +0000  /var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app: signed app bundle with Mach-O thin (arm64) [com.example.hello]
+2023-04-08 21:51:54 +0000 [MT] /usr/bin/codesign exited with 0
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2023-04-08 21:51:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-04-08 21:51:54 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2023-04-08 21:51:54 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root' '/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Packages/helloworld1.ipa'
+2023-04-08 21:51:54 +0000  >>> Copying /var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root 
+2023-04-08 21:51:54 +0000  copying file ./Payload/helloworld1.app/_CodeSignature/CodeResources ... 
+2023-04-08 21:51:54 +0000  2335 bytes for ./Payload/helloworld1.app/_CodeSignature/CodeResources
+copying file ./Payload/helloworld1.app/helloworld1 ... 
+2023-04-08 21:51:54 +0000  91808 bytes for ./Payload/helloworld1.app/helloworld1
+2023-04-08 21:51:54 +0000  copying file ./Payload/helloworld1.app/exportOptions.plist ... 
+42 bytes for ./Payload/helloworld1.app/exportOptions.plist
+copying file ./Payload/helloworld1.app/embedded.mobileprovision ... 
+2023-04-08 21:51:54 +0000  14179 bytes for ./Payload/helloworld1.app/embedded.mobileprovision
+copying file ./Payload/helloworld1.app/Info.plist ... 
+2023-04-08 21:51:54 +0000  1212 bytes for ./Payload/helloworld1.app/Info.plist
+copying file ./Payload/helloworld1.app/PkgInfo ... 
+8 bytes for ./Payload/helloworld1.app/PkgInfo
+2023-04-08 21:51:55 +0000 [MT] /usr/bin/ditto exited with 0
+2023-04-08 21:51:55 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2023-04-08 21:51:55 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-04-08 21:51:55 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-04-08 21:51:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x60000263dea0:'/var/folders/zl/4r44y56n25ng935t70p9t02w0000gn/T/XcodeDistPipeline.~~~emU4zy/Root/Payload/helloworld1.app'>
+2023-04-08 21:51:55 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
